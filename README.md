@@ -12,11 +12,13 @@ System File Check (SFC): Scans and repairs corrupt system files.
 Deployment Image Servicing and Management (DISM): Repairs Windows component store corruption.
 HAL & Dave Interaction: HAL introduces himself, provides updates on the system, and interacts with Dave, who helps manage the process.
 Daisy Song: If the system is restarted, HAL sings the iconic "Daisy Bell" song during shutdown, adding a nostalgic element.
+
 Requirements
 Windows PowerShell
 System running Windows 10/11
 Administrator privileges to perform optimization tasks
 
+Installation
 Run the script in PowerShell with administrator privileges:
 Set-ExecutionPolicy Bypass -Scope Process -Force
 .\HAL_Windows_Optimization.ps1
